@@ -42,6 +42,7 @@ libcommon_la_SOURCES = \
 	sqlite3util.cpp \
 	URLEncode.cpp \
 	Utils.cpp \
+	PARPCClient.cpp \
 	A51.cpp
 
 noinst_PROGRAMS = \
@@ -75,6 +76,7 @@ noinst_HEADERS = \
 	Utils.h \
 	Logger.h \
 	sqlite3util.h \
+	PARPCClient.h \
 	A51.h
 
 URLEncodeTest_SOURCES = URLEncodeTest.cpp
